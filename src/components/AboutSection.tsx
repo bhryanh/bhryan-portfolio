@@ -6,7 +6,7 @@ const AboutSection = () => {
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">About Me</h2>
           <div className="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 dark:text-gray-400">
-            Here's a little bit about myself and my journey
+            My journey and what motivates me
           </p>
         </div>
 
@@ -31,35 +31,77 @@ const AboutSection = () => {
 
           <div className="space-y-6">
             <p className="text-lg text-gray-700 dark:text-gray-300">
-              I'm a passionate Full Stack Developer with a background in
-              Computer Science. With over 5 years of experience in web
-              development, I've worked on a wide range of projects from small
-              business websites to complex enterprise applications.
+              I'm a passionate Full Stack Developer with over 7 years of
+              experience designing and developing scalable enterprise
+              applications. I'm proficient in .NET, C#, ASP.NET Core, Angular,
+              React, TypeScript, and API design, with expertise in both backend
+              and frontend development.
             </p>
 
             <p className="text-lg text-gray-700 dark:text-gray-300">
-              My approach to development focuses on creating clean, maintainable
-              code that delivers exceptional user experiences. I'm constantly
-              learning new technologies and methodologies to stay at the
-              forefront of the industry.
+              I have extensive experience in architecting cloud-based
+              microservices on Azure and AWS, optimizing system performance, and
+              building data-driven REST APIs. I'm skilled in modern frontend
+              frameworks, Azure AD integration, and CQRS patterns. I'm
+              passionate about delivering high-quality software, improving
+              business processes, and collaborating in agile, diverse teams to
+              drive innovation.
             </p>
+
+            <div className="mt-8">
+              <h3 className="font-semibold text-xl mb-4">
+                3 Great Reasons to Work With Me
+              </h3>
+              <ul className="space-y-3 text-gray-700 dark:text-gray-300">
+                <li className="flex items-start">
+                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold mr-2">
+                    1
+                  </span>
+                  <div>
+                    <span className="font-medium">Career Growth:</span> I'm
+                    always looking for opportunities to advance and take on
+                    roles that align with long-term career goals.
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold mr-2">
+                    2
+                  </span>
+                  <div>
+                    <span className="font-medium">Learning Opportunities:</span>{" "}
+                    I thrive when working with advanced technologies and
+                    collaborative teams.
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold mr-2">
+                    3
+                  </span>
+                  <div>
+                    <span className="font-medium">Challenging Projects:</span>{" "}
+                    I'm motivated by complex and impactful projects that are
+                    professionally rewarding and personally fulfilling.
+                  </div>
+                </li>
+              </ul>
+            </div>
 
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div>
                 <h3 className="font-semibold text-lg mb-2">Education</h3>
                 <ul className="space-y-2 text-gray-600 dark:text-gray-400">
-                  <li>BS in Computer Science, University Name</li>
-                  <li>Web Development Certification</li>
+                  <li>
+                    Bachelor in Control and Automation Engineering, Universidade
+                    Federal de Minas Gerais (2015-2020)
+                  </li>
                 </ul>
               </div>
 
               <div>
-                <h3 className="font-semibold text-lg mb-2">Interests</h3>
+                <h3 className="font-semibold text-lg mb-2">Location</h3>
                 <ul className="space-y-2 text-gray-600 dark:text-gray-400">
-                  <li>Open Source Contribution</li>
-                  <li>UI/UX Design</li>
-                  <li>Artificial Intelligence</li>
-                  <li>Mobile Development</li>
+                  <li>Belo Horizonte, Minas Gerais, Brazil</li>
+                  <li>Available for remote work worldwide</li>
                 </ul>
               </div>
             </div>

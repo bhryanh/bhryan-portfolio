@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
-import Link from 'next/link';
+import { useState, useEffect } from "react";
+import Link from "next/link";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -16,9 +16,9 @@ const Header = () => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -26,17 +26,17 @@ const Header = () => {
     <header
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-white/90 dark:bg-gray-900/90 backdrop-blur-sm shadow-sm'
-          : 'bg-transparent'
+          ? "bg-white/90 dark:bg-gray-900/90 backdrop-blur-sm shadow-sm"
+          : "bg-transparent"
       }`}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <Link 
-            href="/" 
+          <Link
+            href="/"
             className="text-xl font-bold tracking-tight hover:text-gray-700 dark:hover:text-gray-300 transition"
           >
-            YOUR NAME
+            BHRYAN PERPETUO
           </Link>
 
           {/* Desktop Navigation */}
@@ -82,19 +82,34 @@ const Header = () => {
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
           <nav className="md:hidden py-4 space-y-3">
-            <MobileNavLink href="#about" onClick={() => setIsMobileMenuOpen(false)}>
+            <MobileNavLink
+              href="#about"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
               About
             </MobileNavLink>
-            <MobileNavLink href="#skills" onClick={() => setIsMobileMenuOpen(false)}>
+            <MobileNavLink
+              href="#skills"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
               Skills
             </MobileNavLink>
-            <MobileNavLink href="#projects" onClick={() => setIsMobileMenuOpen(false)}>
+            <MobileNavLink
+              href="#projects"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
               Projects
             </MobileNavLink>
-            <MobileNavLink href="#experience" onClick={() => setIsMobileMenuOpen(false)}>
+            <MobileNavLink
+              href="#experience"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
               Experience
             </MobileNavLink>
-            <MobileNavLink href="#contact" onClick={() => setIsMobileMenuOpen(false)}>
+            <MobileNavLink
+              href="#contact"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
               Contact
             </MobileNavLink>
           </nav>
@@ -104,7 +119,13 @@ const Header = () => {
   );
 };
 
-const NavLink = ({ href, children }: { href: string; children: React.ReactNode }) => {
+const NavLink = ({
+  href,
+  children,
+}: {
+  href: string;
+  children: React.ReactNode;
+}) => {
   return (
     <Link
       href={href}
@@ -115,14 +136,14 @@ const NavLink = ({ href, children }: { href: string; children: React.ReactNode }
   );
 };
 
-const MobileNavLink = ({ 
-  href, 
-  onClick, 
-  children 
-}: { 
-  href: string; 
+const MobileNavLink = ({
+  href,
+  onClick,
+  children,
+}: {
+  href: string;
   onClick: () => void;
-  children: React.ReactNode 
+  children: React.ReactNode;
 }) => {
   return (
     <Link

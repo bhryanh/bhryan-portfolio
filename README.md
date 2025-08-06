@@ -1,33 +1,42 @@
-# Professional Portfolio Template
+# Bhryan Perpétuo - Professional Portfolio
 
-A modern, responsive portfolio template built with Next.js, TypeScript, and Tailwind CSS.
+This is my professional portfolio website built with Next.js, TypeScript, and Tailwind CSS.
+
+## Overview
+
+This portfolio showcases my skills, experience, and projects as a Full Stack Developer with over 7 years of experience in the industry.
 
 ## Features
 
-- 📱 Fully responsive design that looks great on all devices
-- 🌓 Light and dark mode support
-- ⚡ Fast and optimized performance
-- 🎨 Clean and modern UI
-- ♿ Accessible components
-- 🔍 SEO friendly
-- 📝 Easy to customize and extend
+- Responsive design for all device sizes
+- Dark/light mode based on system preferences
+- Smooth scrolling navigation
+- Animated UI elements
+- Contact form
+- Project filtering by category
+
+## Tech Stack
+
+- **Framework**: Next.js 15
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS 4
+- **Components**: Custom components
+- **Deployment**: Ready for deployment on Vercel
 
 ## Sections
 
-The portfolio template includes the following sections:
-
-- **Hero** - An eye-catching introduction with a call-to-action
-- **About** - Detailed information about yourself and your background
-- **Skills** - Showcase your technical skills and expertise
-- **Projects** - Display your work with filterable categories
-- **Experience** - Timeline of your professional journey
-- **Contact** - A form for visitors to get in touch with you
+- Hero Introduction
+- About Me
+- Technical Skills
+- Notable Projects
+- Work Experience
+- Contact Information
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js 18.0 or later
+- Node.js 18.x or later
 - npm or yarn
 
 ### Installation
@@ -35,8 +44,8 @@ The portfolio template includes the following sections:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-portfolio.git
-cd your-portfolio
+git clone https://github.com/yourusername/portfolio.git
+cd portfolio
 ```
 
 2. Install dependencies:
@@ -44,55 +53,41 @@ cd your-portfolio
 ```bash
 npm install
 # or
-yarn
+yarn install
 ```
 
-3. Start the development server:
+3. Run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
 ## Customization
 
-### Personal Information
+Feel free to fork this repository and customize it for your own portfolio:
 
-To customize the portfolio with your information, update the following:
+1. Update personal information in the components
+2. Add your own projects and experiences
+3. Customize colors and styling through Tailwind configuration
+4. Add your own profile image
 
-1. Replace placeholders with your name, role, and contact information
-2. Add your social media links
-3. Update the About section with your bio
-4. Add your skills, projects, and experience
+## Deployment
 
-### Styling
+This portfolio is designed to be easily deployed on Vercel:
 
-The project uses Tailwind CSS for styling. You can customize the design by:
-
-1. Modifying the theme colors in `src/app/globals.css`
-2. Adjusting component styles in their respective files
-3. Adding new utility classes as needed
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/your-username/your-portfolio)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/portfolio)
 
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## Acknowledgements
+## Contact
 
-- [Next.js](https://nextjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Vercel](https://vercel.com/)
+Bhryan Perpétuo - [bhryan.perpetuo@gmail.com](mailto:bhryan.perpetuo@gmail.com)
+
+LinkedIn: [https://www.linkedin.com/in/bhryan/](https://www.linkedin.com/in/bhryan/)
+GitHub: [https://github.com/bhryanh](https://github.com/bhryanh)

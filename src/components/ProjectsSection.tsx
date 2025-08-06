@@ -1,73 +1,125 @@
 "use client";
 import { useState } from "react";
 
-// Sample project data
+// Project data based on work experience
 const projects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Lawyer Insurance Platform",
     description:
-      "A full-featured e-commerce platform with product management, shopping cart, and payment processing.",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
+      "A scalable insurance platform for lawyers with secure authentication and modern UI.",
+    technologies: [
+      "C#",
+      ".NET 8",
+      "Entity Framework",
+      "CQRS",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Azure AD",
+    ],
     image: "/project-placeholder.jpg",
-    githubUrl: "https://github.com/yourusername/project1",
-    liveUrl: "https://project1-demo.example.com",
+    githubUrl: "#",
+    liveUrl: "#",
     category: "Full Stack",
   },
   {
     id: 2,
-    title: "Task Management App",
+    title: "Banking ACH Transaction System",
     description:
-      "A task management application with drag-and-drop interface, real-time updates, and team collaboration features.",
-    technologies: ["React", "TypeScript", "Firebase", "Tailwind CSS"],
+      "A microservices-based system for handling ACH transactions, replacing a legacy ColdFusion application.",
+    technologies: [
+      "C#",
+      ".NET 8",
+      "ASP.NET Core",
+      "AWS EKS",
+      "Kafka",
+      "Redis",
+      "Terraform",
+      "Microservices",
+    ],
     image: "/project-placeholder.jpg",
-    githubUrl: "https://github.com/yourusername/project2",
-    liveUrl: "https://project2-demo.example.com",
-    category: "Frontend",
-  },
-  {
-    id: 3,
-    title: "Blog API",
-    description:
-      "A RESTful API for a blog platform with authentication, post management, and comment functionality.",
-    technologies: ["Node.js", "Express", "PostgreSQL", "JWT"],
-    image: "/project-placeholder.jpg",
-    githubUrl: "https://github.com/yourusername/project3",
-    liveUrl: "https://project3-api-docs.example.com",
+    githubUrl: "#",
+    liveUrl: "#",
     category: "Backend",
   },
   {
-    id: 4,
-    title: "Weather Dashboard",
+    id: 3,
+    title: "Power Theft Detection Platform",
     description:
-      "A weather dashboard that displays current and forecasted weather data from multiple sources.",
-    technologies: ["React", "Redux", "Chart.js", "Weather API"],
+      "A system that uses satellite imagery and machine learning to detect power theft in rural areas.",
+    technologies: [
+      "C#",
+      ".NET 6",
+      "Angular",
+      "AWS Fargate",
+      "PostgreSQL",
+      "Lambda",
+      "Docker",
+      "Machine Learning",
+    ],
     image: "/project-placeholder.jpg",
-    githubUrl: "https://github.com/yourusername/project4",
-    liveUrl: "https://project4-demo.example.com",
+    githubUrl: "#",
+    liveUrl: "#",
+    category: "Full Stack",
+  },
+  {
+    id: 4,
+    title: "Map Visualization Enhancement",
+    description:
+      "A feature that displays points of interest on a map based on the visible frame, improving workflow efficiency.",
+    technologies: [
+      "C#",
+      ".NET 6",
+      "Angular",
+      "Google Maps API",
+      "REST API",
+      "TypeScript",
+    ],
+    image: "/project-placeholder.jpg",
+    githubUrl: "#",
+    liveUrl: "#",
     category: "Frontend",
   },
   {
     id: 5,
-    title: "Inventory Management System",
+    title: "Databus Migration",
     description:
-      "An inventory management system for small businesses with barcode scanning and reporting features.",
-    technologies: ["React", "Node.js", "MySQL", "Docker"],
+      "Migration of a legacy databus from .NET Framework 4.6 to .NET Core 3.1, improving performance and security.",
+    technologies: [
+      "C#",
+      ".NET Core",
+      "AWS",
+      "ActiveMQ",
+      "Redis",
+      "SQL Server",
+      "Oracle",
+      "PostgreSQL",
+    ],
     image: "/project-placeholder.jpg",
-    githubUrl: "https://github.com/yourusername/project5",
-    liveUrl: "https://project5-demo.example.com",
-    category: "Full Stack",
+    githubUrl: "#",
+    liveUrl: "#",
+    category: "Backend",
   },
   {
     id: 6,
-    title: "Authentication Microservice",
+    title: "E-commerce Marketplace",
     description:
-      "A microservice for handling user authentication and authorization with OAuth integration.",
-    technologies: ["Node.js", "Express", "Redis", "JWT", "OAuth"],
+      "A marketplace platform built with Magento 2, handling over 50,000 monthly visitors.",
+    technologies: [
+      "PHP",
+      "Magento 2",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "MariaDB",
+      "Apache",
+      "Ubuntu",
+    ],
     image: "/project-placeholder.jpg",
-    githubUrl: "https://github.com/yourusername/project6",
-    liveUrl: "https://project6-api-docs.example.com",
-    category: "Backend",
+    githubUrl: "#",
+    liveUrl: "#",
+    category: "Full Stack",
   },
 ];
 
@@ -84,10 +136,12 @@ const ProjectsSection = () => {
     <section id="projects" className="py-20 bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">My Projects</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+            Notable Projects
+          </h2>
           <div className="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 dark:text-gray-400">
-            Check out some of my recent work
+            Highlights from my professional work
           </p>
         </div>
 
@@ -154,7 +208,6 @@ const ProjectCard = ({ project }: { project: Project }) => {
         <p className="text-gray-600 dark:text-gray-400 mb-4">
           {project.description}
         </p>
-
         <div className="mb-4">
           <div className="flex flex-wrap gap-2">
             {project.technologies.map((tech, index) => (
