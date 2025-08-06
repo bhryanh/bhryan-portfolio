@@ -8,7 +8,7 @@ const HeroSection = () => {
           <div className="space-y-8">
             <div>
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-4">
-                Hi, I'm{" "}
+                Hi, I&apos;m{" "}
                 <span className="text-blue-600 dark:text-blue-400">
                   Bhryan Perpétuo
                 </span>

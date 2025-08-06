@@ -31,21 +31,21 @@ const AboutSection = () => {
 
           <div className="space-y-6">
             <p className="text-lg text-gray-700 dark:text-gray-300">
-              I'm a passionate Full Stack Developer with over 7 years of
+              I&apos;m a passionate Full Stack Developer with over 7 years of
               experience designing and developing scalable enterprise
-              applications. I'm proficient in .NET, C#, ASP.NET Core, Angular,
-              React, TypeScript, and API design, with expertise in both backend
-              and frontend development.
+              applications. I&apos;m proficient in .NET, C#, ASP.NET Core,
+              Angular, React, TypeScript, and API design, with expertise in both
+              backend and frontend development.
             </p>
 
             <p className="text-lg text-gray-700 dark:text-gray-300">
               I have extensive experience in architecting cloud-based
               microservices on Azure and AWS, optimizing system performance, and
-              building data-driven REST APIs. I'm skilled in modern frontend
-              frameworks, Azure AD integration, and CQRS patterns. I'm
-              passionate about delivering high-quality software, improving
-              business processes, and collaborating in agile, diverse teams to
-              drive innovation.
+              building data-driven REST APIs. I&apos;m skilled in modern
+              frontend frameworks, Azure AD integration, and CQRS patterns.
+              I&apos;m passionate about delivering high-quality software,
+              improving business processes, and collaborating in agile, diverse
+              teams to drive innovation.
             </p>
 
             <div className="mt-8">
@@ -58,7 +58,7 @@ const AboutSection = () => {
                     1
                   </span>
                   <div>
-                    <span className="font-medium">Career Growth:</span> I'm
+                    <span className="font-medium">Career Growth:</span> I&apos;m
                     always looking for opportunities to advance and take on
                     roles that align with long-term career goals.
                   </div>
@@ -79,8 +79,8 @@ const AboutSection = () => {
                   </span>
                   <div>
                     <span className="font-medium">Challenging Projects:</span>{" "}
-                    I'm motivated by complex and impactful projects that are
-                    professionally rewarding and personally fulfilling.
+                    I&apos;m motivated by complex and impactful projects that
+                    are professionally rewarding and personally fulfilling.
                   </div>
                 </li>
               </ul>
